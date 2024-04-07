@@ -19,4 +19,4 @@ jobs:
 
     - name: Destroy Resource Group
       run: |
-        az group delete --name CopilotTest --yes --no-wait
+        az group delete --name NG-securitycopilot --yes --no-wait
