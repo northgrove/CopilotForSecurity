@@ -15,7 +15,7 @@ jobs:
     - name: Login to Azure
       uses: azure/login@v1
       with:
-        creds: $
+        creds: $NGAZURESECRET
 
     - name: Deploy Bicep template
       run: |
