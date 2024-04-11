@@ -1,9 +1,9 @@
 name: Deploy Resources
 
-on:
-  workflow_dispatch: # Allows you to run the workflow manually
-  schedule:
-    - cron: '0 9 * * 1-5' # Runs at 8 AM UTC, Monday to Friday
+: # on:
+: #  workflow_dispatch: # Allows you to run the workflow manually
+: #  schedule:
+: #    - cron: '0 9 * * 1-5' # Runs at 8 AM UTC, Monday to Friday
 
 jobs:
   deploy:
